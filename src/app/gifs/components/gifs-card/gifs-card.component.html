@@ -1,0 +1,22 @@
+<div class="row">
+
+<div>
+  <div class="card mb-2 text-center bg-dark" id="box">
+
+
+  <app-lazy-image class="text-white" [url]="gifs.images.downsized_medium.url" [alt]="gifs.title || 'no name' "></app-lazy-image>
+
+    <!-- <img
+    [src]="gifs.images.downsized_medium.url"
+    [alt]="gifs.title"
+    class=" "> -->
+    <div class="card-body text-white card-img-top">
+      <p class="card-text">
+        {{gifs.title || "no title"}}
+      </p>
+    </div>
+
+  </div>
+</div>
+
+</div>

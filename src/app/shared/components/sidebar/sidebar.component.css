@@ -2,3 +2,8 @@
   height: 100vh;
   width: 250px;
 }
+
+#button:hover{
+  background-color: #42F58E;
+  border: black;
+}

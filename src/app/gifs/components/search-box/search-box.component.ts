@@ -6,7 +6,7 @@ import { GitsService } from '../../service/gifs.service';
   template: `
   <h5>Buscar:</h5>
   <input type="text"
-  class="form-control"
+  class="form-control animate__animated animate__slideInRight"
   placeholder="Buscar gifs..."
   (keyup.enter)="searchTag()"
   #txtTaginput>

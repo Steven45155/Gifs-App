@@ -11,4 +11,5 @@ export class CardBosComponent {
 
   @Input()
   public gifs: Gif[]=[]
+
 }
