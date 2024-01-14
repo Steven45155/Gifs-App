@@ -1,0 +1,61 @@
+/* #main{
+ animation-name: main;
+ animation-duration: 3s;
+}
+@keyframes main{
+  from{padding-bottom: 38px;}
+  to{ padding-bottom: 38px;}
+}
+#search{
+  position: relative;
+  animation: Motion;
+  animation-duration: 3s;
+}
+
+@keyframes Motion{
+  from{ position: fixed; left: 1000px;}
+  to{ position: fixed; left: 245px; }
+} */
+
+#search:focus{
+  border-top: solid 4px red;
+  border-bottom: solid 4px blue;
+  border-left: solid 4px green;
+  border-right: solid 4px yellow;
+  animation: bordes;
+  animation-duration:4s;
+  animation-iteration-count: 100;
+}
+@keyframes bordes{
+  0%{
+
+    border-top: solid 4px red;
+    border-bottom: solid 4px blue;
+    border-left: solid 4px green;
+    border-right: solid 4px yellow;
+  }
+  25%{
+  border-top: solid 4px  green;
+  border-bottom: solid 4px yellow;
+  border-left: solid 4px blue;
+  border-right: solid 4px red;
+}
+  50%{
+  border-top: solid 4px blue;
+  border-bottom: solid 4px red;
+  border-left: solid 4px yellow;
+  border-right: solid 4px green;
+}
+  75%{
+  border-top: solid 4px yellow;
+  border-bottom: solid 4px green;
+  border-left: solid 4px red;
+  border-right: solid 4px blue;
+  }
+  100%{
+    border-top: solid 4px red;
+  border-bottom: solid 4px blue;
+  border-left: solid 4px green;
+  border-right: solid 4px yellow;
+  }
+}

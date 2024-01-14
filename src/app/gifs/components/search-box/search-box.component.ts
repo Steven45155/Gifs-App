@@ -3,14 +3,18 @@ import { GitsService } from '../../service/gifs.service';
 
 @Component({
   selector: 'gifs-search-box',
+  styleUrls: ['search-box.component.css'],
   template: `
+
   <h5>Buscar:</h5>
+  <div id="main">
   <input type="text"
-  class="form-control animate__animated animate__slideInRight"
+  id="search"
+  class="form-control"
   placeholder="Buscar gifs..."
   (keyup.enter)="searchTag()"
   #txtTaginput>
-  `
+  </div>`
 
 })
 
