@@ -61,7 +61,6 @@ export class GitsService {
   }
 
   searchtag( tag:string ){
-
     this.LimitHis()
 
     if (tag=="" ) return;
